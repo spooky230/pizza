@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order>
+    <orderedTime>2021-04-30T11:10:14.533+03:00</orderedTime>
+    <deliveredTime>2021-04-30T12:23:02.533+03:00</deliveredTime>
+    <client name="Josh" phoneNumber="23012276523" address="Italy210"/>
+    <pizzaMap>
+        <entry>
+            <key name="Standard">
+                <componentsMap>
+                    <entry>
+                        <key name="TomatoSauce" price="1.25"/>
+                        <value>MEDIUM</value>
+                    </entry>
+                    <entry>
+                        <key name="Cheese" price="2.5"/>
+                        <value>LESS</value>
+                    </entry>
+                </componentsMap>
+            </key>
+            <value>5</value>
+        </entry>
+        <entry>
+            <key name="Pizza with beef and olives">
+                <componentsMap>
+                    <entry>
+                        <key name="Olives" price="1.75"/>
+                        <value>LESS</value>
+                    </entry>
+                    <entry>
+                        <key name="TomatoSauce" price="1.25"/>
+                        <value>MEDIUM</value>
+                    </entry>
+                    <entry>
+                        <key name="Cheese" price="2.5"/>
+                        <value>MORE</value>
+                    </entry>
+                    <entry>
+                        <key name="Beef" price="3.0"/>
+                        <value>A_LOT</value>
+                    </entry>
+                    <entry>
+                        <key name="Pushrooms" price="1.0"/>
+                        <value>MEDIUM</value>
+                    </entry>
+                </componentsMap>
+            </key>
+            <value>1</value>
+        </entry>
+        <entry>
+            <key name="pizza with chicken and pineapple">
+                <componentsMap>
+                    <entry>
+                        <key name="Pineapple" price="4.0"/>
+                        <value>A_LOT</value>
+                    </entry>
+                    <entry>
+                        <key name="Mayo" price="1.0"/>
+                        <value>A_LOT</value>
+                    </entry>
+                    <entry>
+                        <key name="Pepperoni" price="2.0"/>
+                        <value>A_LOT</value>
+                    </entry>
+                    <entry>
+                        <key name="Chicken" price="1.5"/>
+                        <value>A_LOT</value>
+                    </entry>
+                </componentsMap>
+            </key>
+            <value>2</value>
+        </entry>
+    </pizzaMap>
+</order>
