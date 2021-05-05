@@ -11,6 +11,7 @@ import javax.xml.bind.annotation.*;
 @NoArgsConstructor
 @XmlType(propOrder = {"name","price","amount"})
 @XmlAccessorType(XmlAccessType.FIELD)
+
 public class ComponentDto {
     @XmlAttribute
     private String name;
